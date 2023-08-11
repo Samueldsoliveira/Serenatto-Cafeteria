@@ -131,7 +131,7 @@
                 </div>
     
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-3" style="width: 18rem;">
                         <img src="./assets/produtos-vitaminas.png" class="card-img-top" alt="Vitaminas variadas">
                         <div class="card-body">
                             <h3 class="card-text text-center fw-bold text-nowrap">Smoothies e Vitaminas</h3>
@@ -140,7 +140,7 @@
                 </div>
     
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-4" style="width: 18rem;">
                         <img src="./assets/produtos-paes.png" class="card-img-top" alt="Pães variados">
                         <div class="card-body">
                             <h3 class="card-text text-center fw-bold">Pães e Focaccias</h3>
@@ -149,7 +149,7 @@
                 </div>
     
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-5" style="width: 18rem;">
                         <img src="./assets/produtos-doces.png" class="card-img-top" alt="Bolo de morango">
                         <div class="card-body">
                             <h3 class="card-text text-center fw-bold">Doces</h3>
@@ -158,7 +158,7 @@
                 </div>
     
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6" style="width: 18rem;">
                         <img src="./assets/produtos-salgados.png" class="card-img-top" alt="Torta salgada">
                         <div class="card-body">
                             <h3 class="card-text text-center fw-bold">Salgados</h3>
@@ -176,7 +176,7 @@
         </section>
     </main>
 
-    <!-- canvas 1 -->
+    <!-- canvas 1 café & bistrô -->
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
@@ -225,7 +225,7 @@
         </div>
     </div>
 
-    <!-- canvas 2 -->
+    <!-- canvas 2 buffet -->
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
@@ -262,7 +262,7 @@
       </div>
   </div>
 
-    <!-- canvas 3 -->
+    <!-- canvas 3 delivery -->
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
@@ -299,7 +299,8 @@
       </div>
   </div>
 
-    <!-- Modal 1 -->
+
+    <!-- Modal 1 cafés tradicionais -->
 
     <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -322,7 +323,7 @@
     </div>
 
 
-    <!-- Modal 2 -->
+    <!-- Modal 2 cafés especiais -->
 
     <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -332,10 +333,102 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <img class="w-100" src="./assets/produtos-cafe-especial.png" alt="Xícara de café preto">
+            <img class="w-100" src="./assets/produtos-cafe-especial.png" alt="Xícara de café especial">
             <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados de alta qualidade e técnicas de preparo precisas.</p>
 
             <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado com uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra opção popular é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma bebida limpa e suave, ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de bebidas geladas, como o café gelado, que é preparado com grãos torrados escuros e servido com gelo e leite, resultando em uma bebida refrescante e saborosa.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal 3 smoothies e vitaminas -->
+
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Smoothies e Vitaminas</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="./assets/produtos-vitaminas.png" alt="Três copos de vitamina da cor rosa, verde e vermelho">
+            <p>Além de sermos reconhecidos pelos nossos cafés especiais, no Café & Bistrô Serenatto, também somos especialistas em criar experiências refrescantes e saudáveis com nossos deliciosos smoothies e vitaminas. Cuidadosamente elaborados para oferecer uma explosão de sabores naturais, nossos smoothies são preparados com frutas frescas selecionadas, proporcionando uma opção nutritiva e saborosa para os nossos clientes.</p>
+
+            <p>Entre as opções de smoothies e vitaminas que oferecemos, destaca-se o nosso Smoothie Energia Tropical, preparado com uma mistura equilibrada de manga suculenta, abacaxi fresco e banana cremosa. Essa combinação não apenas satisfaz o paladar, mas também fornece um impulso revigorante de energia. Outra opção que conquistou os corações dos nossos clientes é a Vitamina Nutrição Verde, que combina espinafre fresco, banana, abacate e um toque de mel, resultando em uma bebida rica em nutrientes e antioxidantes. Nosso compromisso com a qualidade se estende a cada copo que preparamos, garantindo que cada gole seja uma experiência de sabor única e revitalizante. Além dos nossos famosos cafés especiais, estamos empolgados em oferecer essas opções de smoothies e vitaminas para aqueles que buscam uma alternativa saudável e saborosa.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal 4 pães e focaccias -->
+
+    <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pães e Focaccias</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="./assets/produtos-paes.png" alt="Uma cesta grande de pães e focaccias">
+            <p>No Café & Bistrô Serenatto, a nossa paixão pela culinária artesanal se estende além dos cafés especiais. Temos o prazer de apresentar a nossa seleção única de pães e focaccias, todos cuidadosamente preparados para proporcionar uma experiência gastronômica excepcional. Nossa dedicação à qualidade começa com a escolha dos ingredientes mais frescos e se traduz em cada mordida saborosa.</p>
+
+            <p>Entre as opções de pães e focaccias que você encontrará em nosso cardápio, destacamos o Pão Rústico de Nozes e Cranberries, uma fusão perfeita entre a riqueza das nozes e o toque agridoce das cranberries. Cada pedaço é uma combinação equilibrada de sabores e texturas que se desdobram a cada mordida. Além disso, a nossa Focaccia Mediterrânea é uma homenagem ao caloroso sabor do Mediterrâneo, com azeite de oliva extra virgem, tomates cereja suculentos, azeitonas e ervas aromáticas. Cada fatia é como uma viagem culinária à costa ensolarada. Estamos dedicados a proporcionar a você uma experiência de pães e focaccias que não apenas satisfará os seus sentidos, mas também criará memórias culinárias duradouras. Seja acompanhando um café especial ou como um deleite independente, nossos pães e focaccias são uma celebração da boa comida feita com amor e dedicação.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal 5 doces -->
+
+    <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Doces</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="./assets/produtos-doces.png" alt="Bolo de 3 andares de morango">
+            <p>No Café & Bistrô Serenatto, nossos doces são verdadeiras obras de arte para os amantes de sabores indulgentes. Cada doce é meticulosamente concebido para despertar a alegria nos paladares mais refinados. Nossa seleção inclui um irresistível Cheesecake de Frutas Vermelhas, harmonizando a suavidade do cream cheese com o toque vibrante das frutas. Além disso, nosso Brownie Gourmet, repleto de chocolates finos e nozes crocantes, é uma tentação para os apaixonados por chocolate, garantindo uma experiência indulgente em cada pedaço.</p>
+
+            <p>Entre as opções de doces, você encontrará também o Eclair Artesanal, uma homenagem à tradição francesa com recheio de creme de baunilha, envolto em camadas delicadas de massa folhada. Cada detalhe dessas criações reflete nossa busca incansável pela excelência e sabor autêntico. No Café & Bistrô Serenatto, a cada mordida, convidamos você a embarcar em uma jornada sensorial repleta de prazer e paixão pela gastronomia doce.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal 6 salgados -->
+
+    <div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Salgados</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="./assets/produtos-salgados.png" alt="Torta de frango com dois pedaços separados">
+            <p>No Café & Bistrô Serenatto, nossos salgados são um deleite para os amantes da boa comida. Cada opção é uma combinação cuidadosa de sabores autênticos e ingredientes de alta qualidade. Entre as nossas escolhas, destaca-se a Quiche Lorraine, uma fusão irresistível de ovos cremosos, bacon crocante e queijo derretido, abraçados por uma massa folhada delicada. Além disso, o nosso Croissant de Frango com Cream Cheese é uma delícia de harmonia, unindo a crocância do croissant com um recheio generoso de frango e cream cheese, proporcionando uma experiência única de sabor e textura.</p>
+
+            <p>Em cada mordida, nossos salgados são uma expressão do nosso compromisso com a culinária excepcional. Buscamos criar uma seleção que cativa todos os paladares, elevando a experiência gastronômica de quem nos visita. No Café & Bistrô Serenatto, convidamos você a explorar essas criações saborosas que refletem nossa paixão pela autenticidade e prazer na comida.</p>
           </div>
           <div class="modal-footer mx-auto">
             <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>

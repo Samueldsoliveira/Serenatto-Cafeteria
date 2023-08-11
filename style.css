@@ -4,7 +4,16 @@ body {
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
   height: 4000px;
-  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
@@ -59,4 +68,8 @@ input[type="checkbox"]:focus {
 
 .bg-custom{
   background-color: var(--marrom-claro);
+}
+
+.icon-link {
+  margin: 0 10px; /* Adicione margem horizontal para separar os ícones */
 }
